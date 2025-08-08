@@ -1,5 +1,5 @@
 # Tooltips
-## A tooltip rendering system for KubeJS on Minecraft 1.20.1
+A tooltip rendering system for KubeJS on Minecraft 1.20.1
 
 ## Installing
 
