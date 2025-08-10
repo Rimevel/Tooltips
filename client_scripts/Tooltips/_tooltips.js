@@ -111,7 +111,7 @@ const Tooltips = {
                     let offset = start ? start + 2 : 3;
                     let last = 0;
                     if (event.isShift()) {
-                        text.add(1, "§f\uDB80\uDE28§8[§fShift§8]");
+                        text.add(1, "§8Hold §f§8[§fShift§8]§8 for Summary");
                         text.add(2, "");
 
                         for (let i = 0; i < lines.length; i++) {
@@ -135,7 +135,7 @@ const Tooltips = {
                             text.add(last + 1, "");
                         }
                     } else {
-                        text.add(1, "§f§8[§7Shift§8]§f for summary");
+                        text.add(1, "§8Hold §f§8[§7Shift§8]§8 for Summary");
                     }
                 });
             },
